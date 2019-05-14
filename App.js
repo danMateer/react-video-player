@@ -26,7 +26,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h1>Video Player</h1>
+        <h1>StreamZone</h1>
         <Menu chooseVideo={this.chooseVideo}/>
         <Video src={this.state.src}/>
       </div>
@@ -34,7 +34,3 @@ class App extends React.Component {
   }
 }
 
-ReactDOM.render(
-  <App />,
-  document.getElementById('app')
-);
