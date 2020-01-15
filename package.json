@@ -34,7 +34,7 @@
     "foundation-sites": "^6.6.1",
     "get-video-id": "^3.0.0",
     "glob": "^7.1.2",
-    "hbs": "^4.0.0",
+    "hbs": "^4.1.0",
     "js-file-download": "0.4.4",
     "jsencrypt": "^3.0.0-rc.1",
     "ldclient-js": "2.7.0",
