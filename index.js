@@ -23,6 +23,13 @@ export default class Home extends Component {
                 ref={ref => (this._input = ref)}
               />
             </div>
+              <input
+                type="text"
+                placeholder="Enter a Bitbucket user..."
+                className="form-control"
+                ref={ref => (this._input = ref)}
+              />
+            </div>
           </div>
           <button type="submit" className="btn btn-primary">
             Go
