@@ -23,6 +23,7 @@ export default class Home extends Component {
                 ref={ref => (this._input = ref)}
               />
             </div>
+             <div className="input-group">
               <input
                 type="text"
                 placeholder="Enter a Bitbucket user..."
