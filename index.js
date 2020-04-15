@@ -28,6 +28,12 @@ export default class Home extends Component {
                 className="form-control"
                 ref={ref => (this._input = ref)}
               />
+              <input
+                type="text"
+                placeholder="Enter a GitLab user..."
+                className="form-control"
+                ref={ref => (this._input = ref)}
+              />
             </div>
           </div>
           <button type="submit" className="btn btn-primary">
